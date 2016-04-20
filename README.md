@@ -8,6 +8,7 @@ argument pewną funkcję f, w wyniku czego daje nową funkcję
 g będącą n-krotnym złożeniem f, czyli g(x) = f^n(x).
 
 W rachunku lambda odpowiednie numerały będą miały postać:
+
         0 = lambda f: lambda x: x
         1 = lambda f: lambda x: f(x)
         2 = lambda f: lambda x: f(f(x))
